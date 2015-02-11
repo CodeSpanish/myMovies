@@ -20,6 +20,10 @@ class Youtube extends SearchService {
         $this->webRequest=new WebRequest();
     }
 
+    /**
+     * @param $title
+     * @return mixed
+     */
     public function getVideos($title){
 
         $google_service_youtube = new Google_Service_YouTube($this->google_client);
@@ -39,7 +43,8 @@ class Youtube extends SearchService {
         foreach($data->getItems() as $video){
             array_push($videos, array(
                'videoId'=>$video['modelData']['id']['videoId'],
-               'title' =>$video['modelData']['snippet']['title']
+               'title' =>$video['modelData']['snippet']['title'],
+               'url'=>'http://www.youtube.com/embed/'.$video['modelData']['id']['videoId']
             ));
         };
 

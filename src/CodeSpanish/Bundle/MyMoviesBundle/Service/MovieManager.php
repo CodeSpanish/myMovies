@@ -25,6 +25,8 @@ use Doctrine\ORM\Query\Expr;
  * @property \CodeSpanish\Bundle\MyMoviesBundle\Service\RottenTomatoes rottenTomatoes
  * @property \CodeSpanish\Bundle\MyMoviesBundle\Service\Imdb imdb
  * @property \CodeSpanish\Bundle\MyMoviesBundle\Service\Amazon amazon
+ * @property \CodeSpanish\Bundle\MyMoviesBundle\Service\Youtube  youtube
+ * @property \CodeSpanish\Bundle\MyMoviesBundle\Service\Google google
  */
 class MovieManager {
 
@@ -41,6 +43,8 @@ class MovieManager {
         if(isset($services['RottenTomatoes'])) $this->rottenTomatoes=$services['RottenTomatoes'];
         if(isset($services['Imdb'])) $this->imdb=$services['Imdb'];
         if(isset($services['Amazon'])) $this->amazon=$services['Amazon'];
+        if(isset($services['Google'])) $this->google=$services['Google'];
+        if(isset($services['Youtube'])) $this->youtube=$services['Youtube'];
 
         $this->movieRepo=$this->entityManager->getRepository('CodeSpanishMyMoviesBundle:Movie');
         $this->castRepo=$this->entityManager->getRepository('CodeSpanishMyMoviesBundle:Cast');
@@ -101,6 +105,12 @@ class MovieManager {
 
             $this->updateAmazonData($listedMovie);
             $this->outputInterface->writeln("Updated Amazon data: ". $listedMovie->getOriginalTitle());
+
+            $this->getVideos($listedMovie);
+            $this->outputInterface->writeln("Updated Videos: ". $listedMovie->getOriginalTitle());
+
+            $this->getImages($listedMovie);
+            $this->outputInterface->writeln("Updated Images: ". $listedMovie->getOriginalTitle());
 
             $this->entityManager->merge($listedMovie);
             $this->entityManager->flush($listedMovie);
@@ -241,6 +251,25 @@ class MovieManager {
 
 
     }
+
+    /**
+     * @param Movie $movie
+     */
+    protected function getVideos(&$movie){
+
+        $videos= $this->youtube->getVideos($movie->getOriginalTitle()." trailer");
+
+        foreach($videos as $video){
+            $this->movieRepo->findTrailer($movie,$video->url);
+        }
+
+    }
+
+
+    protected function getImages(&$movie){
+
+    }
+
 
     protected function updateCast(&$movie, $people, $role){
 

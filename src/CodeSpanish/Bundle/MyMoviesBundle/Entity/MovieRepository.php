@@ -142,6 +142,66 @@ class MovieRepository extends EntityRepository
     }
 
     /**
+     * @param $movie
+     * @param $url
+     * @return array|File
+     */
+    public function findTrailer($movie, $url){
+
+        //We check that the cover doesn't exist in the db
+        $query=$this->_em->createQueryBuilder()
+            ->select('file')
+            ->from('CodeSpanishMyMoviesBundle:File','file')
+            ->innerJoin('file.movie','movie')
+            ->where('file.sourceurl=:url')
+            ->andWhere('movie.id=:movieId')
+            ->setParameter('url',$url)
+            ->setParameter('movieId',$movie->getId())
+            ->getQuery();
+        $file=$query->getResult();
+
+        if(empty($file)){
+
+            //We then check if the mediatype already exists
+            $mediaType = $this->_em->getRepository("CodeSpanishMyMoviesBundle:Mediatype")
+                ->findOneBy(array(
+                    'mime'=>'video/webm',
+                    'dvd'=>false,
+                    'featured'=>false,
+                    'small'=>false,
+                    'medium'=>false,
+                    'large'=>false,
+                    'scene'=>false,
+                    'trailer'=>true
+                ));
+
+            if(empty($mediaType)){
+                $mediaType = new Mediatype();
+                $mediaType->setMime('video/webm');
+                $mediaType->setDvd(false);
+                $mediaType->setFeatured(false);
+                $mediaType->setSmall(false);
+                $mediaType->setMedium(false);
+                $mediaType->setLarge(false);
+                $mediaType->setScene(false);
+                $mediaType->setTrailer(true);
+                $this->_em->persist($mediaType);
+                $this->_em->flush($mediaType);
+            }
+
+            $file=new File();
+            $file->setMediatype($mediaType);
+            $file->addMovie($movie);
+            $file->setSourceurl($url);
+            $this->_em->persist($file);
+            $this->_em->flush($file);
+        }
+
+        return $file;
+
+    }
+
+    /**
      * Retrieves a role object - persist one if none is in the db
      * @param $name
      * @return Role
