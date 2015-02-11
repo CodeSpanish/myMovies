@@ -1,0 +1,52 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>MoviesList</h1>
+
+    <table class="record_properties">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ entity.id }}</td>
+            </tr>
+            <tr>
+                <th>Title</th>
+                <td>{{ entity.title }}</td>
+            </tr>
+            <tr>
+                <th>Amazonid</th>
+                <td>{{ entity.amazonId }}</td>
+            </tr>
+            <tr>
+                <th>Imdbid</th>
+                <td>{{ entity.imdbId }}</td>
+            </tr>
+            <tr>
+                <th>Wikipediaid</th>
+                <td>{{ entity.wikipediaId }}</td>
+            </tr>
+            <tr>
+                <th>Rottentomatoesid</th>
+                <td>{{ entity.rottentomatoesId }}</td>
+            </tr>
+            <tr>
+                <th>Mymoviesid</th>
+                <td>{{ entity.mymoviesId }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('movieslist') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('movieslist_edit', { 'id': entity.id }) }}">
+            Edit
+        </a>
+    </li>
+    <li>{{ form(delete_form) }}</li>
+</ul>
+{% endblock %}

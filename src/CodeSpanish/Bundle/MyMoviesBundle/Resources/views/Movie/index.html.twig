@@ -1,0 +1,49 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Movie list</h1>
+
+    <table class="records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Englishtitle</th>
+                <th>Originaltitle</th>
+                <th>Storyline</th>
+                <th>Year</th>
+                <th>Runtime</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('movie_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.englishTitle }}</td>
+                <td>{{ entity.originalTitle }}</td>
+                <td>{{ entity.storyline }}</td>
+                <td>{{ entity.year }}</td>
+                <td>{{ entity.runtime }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('movie_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('movie_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+        <ul>
+        <li>
+            <a href="{{ path('movie_new') }}">
+                Create a new entry
+            </a>
+        </li>
+    </ul>
+    {% endblock %}

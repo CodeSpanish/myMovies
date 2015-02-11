@@ -1,0 +1,4 @@
+code_spanish_my_movies:
+    resource: "@CodeSpanishMyMoviesBundle/Resources/config/routing.yml"
+    prefix:   /
+

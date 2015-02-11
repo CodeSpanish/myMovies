@@ -1,0 +1,2 @@
+*** MoviesList
+php app/console generate:doctrine:entity --no-interaction --entity=CodeSpanishMyMoviesBundle:Post --fields="title:string(255) ..." --format=annotations

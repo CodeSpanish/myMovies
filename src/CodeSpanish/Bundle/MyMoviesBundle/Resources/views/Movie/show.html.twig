@@ -1,0 +1,48 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Movie</h1>
+
+    <table class="record_properties">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ entity.id }}</td>
+            </tr>
+            <tr>
+                <th>Englishtitle</th>
+                <td>{{ entity.englishTitle }}</td>
+            </tr>
+            <tr>
+                <th>Originaltitle</th>
+                <td>{{ entity.originalTitle }}</td>
+            </tr>
+            <tr>
+                <th>Storyline</th>
+                <td>{{ entity.storyline }}</td>
+            </tr>
+            <tr>
+                <th>Year</th>
+                <td>{{ entity.year }}</td>
+            </tr>
+            <tr>
+                <th>Runtime</th>
+                <td>{{ entity.runtime }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('movie') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('movie_edit', { 'id': entity.id }) }}">
+            Edit
+        </a>
+    </li>
+    <li>{{ form(delete_form) }}</li>
+</ul>
+{% endblock %}

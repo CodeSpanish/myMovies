@@ -1,0 +1,245 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - la historia oficial",
+    "totalResults": "62600000",
+    "searchTerms": "la historia oficial",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "017167652660210911387:wsmv3qmitug",
+    "filter": "0",
+    "searchType": "image",
+    "imgSize": "medium",
+    "imgType": "photo"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - la historia oficial",
+    "totalResults": "62600000",
+    "searchTerms": "la historia oficial",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "017167652660210911387:wsmv3qmitug",
+    "filter": "0",
+    "searchType": "image",
+    "imgSize": "medium",
+    "imgType": "photo"
+   }
+  ]
+ },
+ "context": {
+  "title": "MyMovies"
+ },
+ "searchInformation": {
+  "searchTime": 0.190214,
+  "formattedSearchTime": "0.19",
+  "totalResults": "62600000",
+  "formattedTotalResults": "62,600,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "MV5BMTMyNTc1MjIwNF5BMl5BanBnXk ...",
+   "htmlTitle": "MV5BMTMyNTc1MjIwNF5BMl5BanBnXk ...",
+   "link": "http://ia.media-imdb.com/images/M/MV5BMTMyNTc1MjIwNF5BMl5BanBnXkFtZTcwOTcyMTcyMQ@@._V1_SY317_CR4,0,214,317_AL_.jpg",
+   "displayLink": "www.imdb.com",
+   "snippet": "\"La historia oficial\"",
+   "htmlSnippet": "&quot;\u003cb\u003eLa historia oficial\u003c/b\u003e&quot;",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.imdb.com/title/tt0089276/",
+    "height": 317,
+    "width": 214,
+    "byteSize": 23576,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQET8fcFyQQVP1hm4jvkoUkZF--4i5k9_9FwCFxmoqc_3RyITb-jz-6K-k",
+    "thumbnailHeight": 118,
+    "thumbnailWidth": 80
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Download A História Oficial (Legendado) | Baixa Logo Filmes",
+   "htmlTitle": "Download A \u003cb\u003eHistória Oficial\u003c/b\u003e (Legendado) | Baixa Logo Filmes",
+   "link": "http://3.bp.blogspot.com/_rX2y32F5M5U/TUbmYqdeXnI/AAAAAAAAAJE/NZReTLZYirE/s250/poster+historiaoficial.jpg",
+   "displayLink": "www.baixalogofilmes.biz",
+   "snippet": "Filme A História Oficial",
+   "htmlSnippet": "Filme A \u003cb\u003eHistória Oficial\u003c/b\u003e",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.baixalogofilmes.biz/download-a-historia-oficial-legendado-2/gratis/",
+    "height": 250,
+    "width": 176,
+    "byteSize": 26816,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTQgeWBIGhtXbHLMmZVukxcQkLWBtonT7B2rOXHXRjon4ySrvy0meg7mw",
+    "thumbnailHeight": 126,
+    "thumbnailWidth": 89
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Película: La Historia Oficial (1985) - La Historia Oficial (The ...",
+   "htmlTitle": "Película: \u003cb\u003eLa Historia Oficial\u003c/b\u003e (1985) - \u003cb\u003eLa Historia Oficial\u003c/b\u003e (The \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://s3-eu-west-1.amazonaws.com/abandomedia/indie/foto/db_6157.jpg",
+   "displayLink": "www.abandomoviez.net",
+   "snippet": "Poster La Historia Oficial",
+   "htmlSnippet": "Poster \u003cb\u003eLa Historia Oficial\u003c/b\u003e",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.abandomoviez.net/indie/pelicula.php?film=6157",
+    "height": 359,
+    "width": 240,
+    "byteSize": 84017,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT3BpIIFPo6YJqRyDZhP8bZZ2L87ALOHpg5hEQ2ZiM1tL26wl_Ekc0RONg",
+    "thumbnailHeight": 121,
+    "thumbnailWidth": 81
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "1001plus: Are You My Mother?",
+   "htmlTitle": "1001plus: Are You My Mother?",
+   "link": "http://3.bp.blogspot.com/-rMG6zcvr414/UX3j1mJmU7I/AAAAAAAAD_4/IOHIYrOLS_I/s1600/officialstory.png",
+   "displayLink": "1001plus.blogspot.com",
+   "snippet": "La Historia Oficial (The",
+   "htmlSnippet": "\u003cb\u003eLa Historia Oficial\u003c/b\u003e (The",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "http://1001plus.blogspot.com/2013/04/are-you-my-mother.html",
+    "height": 480,
+    "width": 853,
+    "byteSize": 474832,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEG9PK2-xdUrw70tPNnCv2F70Y0uMynecsv94jWVvr_IYfi_FvPk1uKhDA",
+    "thumbnailHeight": 82,
+    "thumbnailWidth": 145
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Tucan Peliculas: La historia oficial - A195",
+   "htmlTitle": "Tucan Peliculas: \u003cb\u003eLa historia oficial\u003c/b\u003e - A195",
+   "link": "http://4.bp.blogspot.com/-fqZ664Toqw8/TbJPDF9faXI/AAAAAAAAANA/nFQhJIaaEiI/s1600/A195+-+La+historia+oficial.jpg",
+   "displayLink": "tucanmovie.blogspot.com",
+   "snippet": "La historia oficial - A195",
+   "htmlSnippet": "\u003cb\u003eLa historia oficial\u003c/b\u003e - A195",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://tucanmovie.blogspot.com/2011/04/la-historia-oficial-a195.html",
+    "height": 1599,
+    "width": 1096,
+    "byteSize": 266511,
+    "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR40VGaHqsCr0cKF8ovih_oDt_t0BfrOynWsLgDt3dXXPMcMg35mXS9O2PG",
+    "thumbnailHeight": 150,
+    "thumbnailWidth": 103
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "La historia oficial | 24 por segundo",
+   "htmlTitle": "\u003cb\u003eLa historia oficial\u003c/b\u003e | 24 por segundo",
+   "link": "http://1.bp.blogspot.com/-yy2a1fIfUZI/UArUjC78oII/AAAAAAAAC0g/NydU_c0KyAU/s1600/ho1.jpg",
+   "displayLink": "24-por-segundo.blogspot.com",
+   "snippet": "de que la abuela biológica",
+   "htmlSnippet": "de que \u003cb\u003ela\u003c/b\u003e abuela biológica",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://24-por-segundo.blogspot.com/2006/03/la-historia-oficial.html",
+    "height": 475,
+    "width": 329,
+    "byteSize": 33296,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRZDc76Q9Ga_oREmLIbumi3Exw55qIrK1vB3RzztKd3g6p7_H-JPFQ4jDg",
+    "thumbnailHeight": 129,
+    "thumbnailWidth": 89
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "La historia oficial' de una dictadura, primer Oscar argentino ...",
+   "htmlTitle": "\u003cb\u003eLa historia oficial\u003c/b\u003e&#39; de una dictadura, primer Oscar argentino \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://quientehavistoyquientv.es/wp-content/uploads/2014/01/la-historia-oficial.jpg",
+   "displayLink": "quientehavistoyquientv.es",
+   "snippet": "la historia oficial",
+   "htmlSnippet": "\u003cb\u003ela historia oficial\u003c/b\u003e",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://quientehavistoyquientv.es/2014/02/la-historia-oficial-de-una-dictadura-primer-oscar-argentino/",
+    "height": 271,
+    "width": 270,
+    "byteSize": 21221,
+    "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTp7oEaH2ieTr1e679M872Q-aL5huqXzXv3SLMLsVN9Zv3EwRlh8oB-6cY",
+    "thumbnailHeight": 113,
+    "thumbnailWidth": 113
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "La-Historia-Oficial - Trailer - Cast - Showtimes - NYTimes.com",
+   "htmlTitle": "\u003cb\u003eLa\u003c/b\u003e-\u003cb\u003eHistoria\u003c/b\u003e-\u003cb\u003eOficial\u003c/b\u003e - Trailer - Cast - Showtimes - NYTimes.com",
+   "link": "http://content.internetvideoarchive.com/content/photos/011/000499_26.jpg",
+   "displayLink": "www.nytimes.com",
+   "snippet": "Similar Movies",
+   "htmlSnippet": "Similar Movies",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.nytimes.com/movies/movie/36036/La-Historia-Oficial/overview",
+    "height": 240,
+    "width": 320,
+    "byteSize": 12417,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSAAqJvT166E7ipGOMpkqzUj-XzrygiSJqVkjLptVu9Galn3OvoE1mjlIY",
+    "thumbnailHeight": 89,
+    "thumbnailWidth": 118
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "La Historia Oficial (The Official Story) - Rotten Tomatoes",
+   "htmlTitle": "\u003cb\u003eLa Historia Oficial\u003c/b\u003e (The Official Story) - Rotten Tomatoes",
+   "link": "http://content8.flixster.com/movie/10/88/87/10888722_det.jpg",
+   "displayLink": "www.rottentomatoes.com",
+   "snippet": "La Historia Oficial (The",
+   "htmlSnippet": "\u003cb\u003eLa Historia Oficial\u003c/b\u003e (The",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.rottentomatoes.com/m/official_story/",
+    "height": 260,
+    "width": 180,
+    "byteSize": 25207,
+    "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5hwW4nl3BDrBmfQ_cSH3t_t7VGCelShIV2vzgzu3CNalHk_7PdecLHg",
+    "thumbnailHeight": 112,
+    "thumbnailWidth": 78
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "The Official Story Reviews & Ratings - IMDb",
+   "htmlTitle": "The Official Story Reviews &amp; Ratings - IMDb",
+   "link": "http://ia.media-imdb.com/images/M/MV5BMTMyNTc1MjIwNF5BMl5BanBnXkFtZTcwOTcyMTcyMQ@@._V1._SX98_SY140_.jpg",
+   "displayLink": "www.imdb.com",
+   "snippet": "La historia oficial",
+   "htmlSnippet": "\u003cb\u003eLa historia oficial\u003c/b\u003e",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.imdb.com/title/tt0089276/reviews",
+    "height": 140,
+    "width": 98,
+    "byteSize": 6289,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStB1-5S_cfCGEApyrODcGeFOjtsUTN_k8fBVihPVGHgpba3OU6z4DGurU",
+    "thumbnailHeight": 93,
+    "thumbnailWidth": 65
+   }
+  }
+ ]
+}

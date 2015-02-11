@@ -1,0 +1,9 @@
+code_spanish_my_movies_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: CodeSpanishMyMoviesBundle:Default:index }
+
+
+# import routes from a controller directory
+code_spanish_my_movies_controllers::
+    resource: "@CodeSpanishMyMoviesBundle/Controller"
+    type:     annotation

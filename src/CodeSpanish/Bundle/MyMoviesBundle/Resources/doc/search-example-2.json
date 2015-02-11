@@ -1,0 +1,247 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - la historia oficial scene",
+    "totalResults": "26000",
+    "searchTerms": "la historia oficial scene",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "017167652660210911387:wsmv3qmitug",
+    "filter": "1",
+    "exactTerms": "la historia oficial",
+    "searchType": "image",
+    "imgSize": "large",
+    "imgType": "photo"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - la historia oficial scene",
+    "totalResults": "26000",
+    "searchTerms": "la historia oficial scene",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "017167652660210911387:wsmv3qmitug",
+    "filter": "1",
+    "exactTerms": "la historia oficial",
+    "searchType": "image",
+    "imgSize": "large",
+    "imgType": "photo"
+   }
+  ]
+ },
+ "context": {
+  "title": "MyMovies"
+ },
+ "searchInformation": {
+  "searchTime": 0.260038,
+  "formattedSearchTime": "0.26",
+  "totalResults": "26000",
+  "formattedTotalResults": "26,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "The Official Story - Wikipedia, the free encyclopedia",
+   "htmlTitle": "The <b>Official</b> Story - Wikipedia, the free encyclopedia",
+   "link": "http://upload.wikimedia.org/wikipedia/en/b/b4/La_Historia_Oficial.jpg",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "La Historia Oficial.jpg",
+   "htmlSnippet": "<b>La Historia Oficial</b>.jpg",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://en.wikipedia.org/wiki/The_Official_Story",
+    "height": 412,
+    "width": 267,
+    "byteSize": 51050,
+    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_c-Idj5O5bejv9EQrx1OXTXb_vvhFK1QlvGA_4pMW_Xd2TOtB20zqoP8",
+    "thumbnailHeight": 125,
+    "thumbnailWidth": 81
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Un Cubano en Londres: La Historia Oficial (The Official Story ...",
+   "htmlTitle": "Un Cubano en Londres: <b>La Historia Oficial</b> (The <b>Official</b> Story <b>...</b>",
+   "link": "http://www.proprofs.com/quiz-school/upload/yuiupload/153694296.jpg",
+   "displayLink": "cubaninlondon.blogspot.com",
+   "snippet": "According to accounts by",
+   "htmlSnippet": "According to accounts by",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://cubaninlondon.blogspot.com/2009/12/la-historia-oficial-official-story.html",
+    "height": 425,
+    "width": 300,
+    "byteSize": 26816,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQs3M8BikNtg5kP3pgrrELY9-HitqfzwheKJCxF76DhQy-EO8jSnJaeyg",
+    "thumbnailHeight": 126,
+    "thumbnailWidth": 89
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "10888722_800.jpg",
+   "htmlTitle": "10888722_800.jpg",
+   "link": "http://content8.flixster.com/movie/10/88/87/10888722_800.jpg",
+   "displayLink": "www.rottentomatoes.com",
+   "snippet": "10888722_800.jpg",
+   "htmlSnippet": "10888722_800.jpg",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.rottentomatoes.com/m/official_story/",
+    "height": 475,
+    "width": 329,
+    "byteSize": 51142,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRfLpswXSGPJ4UYVsx-7ExGicrSmAJN7NDll4udTGFgc9Bdk5m2dyS-zdlm",
+    "thumbnailHeight": 129,
+    "thumbnailWidth": 89
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "1001 Movies I (Apparently) MUST See Before I Die: 724. La historia ...",
+   "htmlTitle": "1001 Movies I (Apparently) MUST See Before I Die: 724. <b>La historia</b> <b>...</b>",
+   "link": "http://3.bp.blogspot.com/-63Ek3_FIGV8/UIh7dM4Ze_I/AAAAAAAAEco/YlaZ-3G7f_M/s1600/officialmain.png",
+   "displayLink": "1001movieman.blogspot.com",
+   "snippet": "Official Story\", a movie I",
+   "htmlSnippet": "<b>Official</b> Story&quot;, a movie I",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "http://1001movieman.blogspot.com/2012/10/724-la-historia-oficialthe-official.html",
+    "height": 480,
+    "width": 853,
+    "byteSize": 474832,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR0V6RkfwqghESmonVn3xUj2bG1Sz5o8c6mNrU9v6mX6eQeVDWYlclqy0MI",
+    "thumbnailHeight": 82,
+    "thumbnailWidth": 145
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "hqdefault.jpg",
+   "htmlTitle": "hqdefault.jpg",
+   "link": "http://i.ytimg.com/vi/g7LF5II0wIY/hqdefault.jpg",
+   "displayLink": "www.youtube.com",
+   "snippet": "The Official Story / La",
+   "htmlSnippet": "The <b>Official</b> Story / <b>La</b>",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.youtube.com/watch?v=g7LF5II0wIY",
+    "height": 360,
+    "width": 480,
+    "byteSize": 7033,
+    "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcShl8H-UC9gM8OO1bgHI-slHh7xLZUWX6j59t9wLzMJ4_LTDTriEcQHQfDY",
+    "thumbnailHeight": 97,
+    "thumbnailWidth": 129
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "The Official Story (",
+   "htmlTitle": "The <b>Official</b> Story (",
+   "link": "http://www.impawards.com/1985/posters/official_story.jpg",
+   "displayLink": "moviesdvdnewreleases.com",
+   "snippet": "The Official Story Movie The",
+   "htmlSnippet": "The <b>Official</b> Story Movie The",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://moviesdvdnewreleases.com/the-official-story-1985.html",
+    "height": 755,
+    "width": 518,
+    "byteSize": 73945,
+    "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQtEN1nejxfJ57Agdh4W4ThUYv2-xL0zeFH3xbUb33RqVxncSCDLb3nEgk3",
+    "thumbnailHeight": 142,
+    "thumbnailWidth": 97
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Cinergía Movie File: Historia oficial",
+   "htmlTitle": "Cinergía Movie File: <b>Historia oficial</b>",
+   "link": "http://www.personal.psu.edu/users/s/a/sam50/cinergia/mf/histor36.jpg",
+   "displayLink": "www.personal.psu.edu",
+   "snippet": "Madres de la Plaza de Mayo",
+   "htmlSnippet": "Madres de <b>la</b> Plaza de Mayo",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.personal.psu.edu/users/s/a/sam50/cinergia/mf/historia%20oficial.htm",
+    "height": 307,
+    "width": 410,
+    "byteSize": 26713,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTvBrWgvPib-VqM0XiViOq1fN8RcoFykR2732rPEfdb2XJlg_4XCSHYbQ",
+    "thumbnailHeight": 94,
+    "thumbnailWidth": 125
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "HistoriaOficial.jpg",
+   "htmlTitle": "<b>Historia</b><b>Oficial</b>.jpg",
+   "link": "http://www.ux1.eiu.edu/~ccamaya/HistoriaOficial.jpg",
+   "displayLink": "www.bluelight.org",
+   "snippet": "HistoriaOficial.jpg",
+   "htmlSnippet": "<b>Historia</b><b>Oficial</b>.jpg",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.bluelight.org/vb/archive/index.php/t-348254-p-10.html",
+    "height": 475,
+    "width": 329,
+    "byteSize": 33296,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSq7pc5sp0I5nIG0eJC0hEXs4j6T_tWv9vQt7g-c1tKT0IERwXxFP098Eo",
+    "thumbnailHeight": 129,
+    "thumbnailWidth": 89
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "hqdefault.jpg",
+   "htmlTitle": "hqdefault.jpg",
+   "link": "http://i.ytimg.com/vi/Z-T4zihht0k/hqdefault.jpg",
+   "displayLink": "www.youtube.com",
+   "snippet": "La historia oficial",
+   "htmlSnippet": "<b>La historia oficial</b>",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.youtube.com/watch?v=Z-T4zihht0k",
+    "height": 360,
+    "width": 480,
+    "byteSize": 10469,
+    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JiPWn1LNIqJ9xF22gI3UWYlTJXK_iZNhNMbEBix_77x-boJzxzMa1Urb",
+    "thumbnailHeight": 97,
+    "thumbnailWidth": 129
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Two Plus Two Poker Forums - movies",
+   "htmlTitle": "Two Plus Two Poker Forums - movies",
+   "link": "http://forumserver.twoplustwo.com/videothumbnails/YouTube/drcYUlHBx1Y.jpg",
+   "displayLink": "forumserver.twoplustwo.com",
+   "snippet": "La Historia Oficial (1985)",
+   "htmlSnippet": "<b>La Historia Oficial</b> (1985)",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://forumserver.twoplustwo.com/videos/?do=viewtag&tag=movies",
+    "height": 360,
+    "width": 480,
+    "byteSize": 6531,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSpAOsmi1_1GJVnLJh5PNYAn2UKDlWohPp6E5Au9YkIm7gzZCYYn8UUyAO7",
+    "thumbnailHeight": 97,
+    "thumbnailWidth": 129
+   }
+  }
+ ]
+}
