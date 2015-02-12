@@ -58,6 +58,11 @@ class MovieRepository extends EntityRepository
         return $cast;
     }
 
+    /**
+     * Searches for the country, if not found, adds it to the database
+     * @param $name
+     * @return Country
+     */
     public function findCountry($name){
         $country=$this->_em->getRepository("CodeSpanishMyMoviesBundle:Country")
             ->findOneBy(array(

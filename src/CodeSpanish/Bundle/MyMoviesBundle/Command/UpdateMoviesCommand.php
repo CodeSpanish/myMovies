@@ -11,6 +11,7 @@ namespace CodeSpanish\Bundle\MyMoviesBundle\Command;
 use CodeSpanish\Bundle\MyMoviesBundle\Service\Amazon;
 use CodeSpanish\Bundle\MyMoviesBundle\Service\Constants;
 use CodeSpanish\Bundle\MyMoviesBundle\Service\Imdb;
+use CodeSpanish\Bundle\MyMoviesBundle\Service\Youtube;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -20,6 +21,8 @@ use CodeSpanish\Bundle\MyMoviesBundle\Service\MovieManager;
 use CodeSpanish\Bundle\MyMoviesBundle\Service\Wikipedia;
 use CodeSpanish\Bundle\MyMoviesBundle\Service\WebRequest;
 use CodeSpanish\Bundle\MyMoviesBundle\Service\RottenTomatoes;
+use CodeSpanish\Bundle\MyMoviesBundle\Service\Google;
+use Google_Client;
 
 class UpdateMoviesCommand extends ContainerAwareCommand {
 
@@ -55,6 +58,14 @@ class UpdateMoviesCommand extends ContainerAwareCommand {
             $awsSecretKey,
             null);
 
+        $googleApiKey = $this->getContainer()->getParameter('googleapikey');
+        $googleAppName = $this->getContainer()->getParameter('googleappname');
+        $googleSearchId= $this->getContainer()->getParameter('googleSearchId');
+        $google_client = new Google_Client();
+        $google_search = new Google($google_client, $googleApiKey,$googleAppName, $googleSearchId);
+
+        $youtube = new Youtube($google_client,$googleApiKey,$googleAppName);
+
         $movieManager = new MovieManager(
             $doctrine,
             $output,
@@ -62,7 +73,9 @@ class UpdateMoviesCommand extends ContainerAwareCommand {
                 'Wikipedia'=>$wikipedia,
                 'RottenTomatoes'=>$rottenTomatoes,
                 'Imdb'=>$imdb,
-                'Amazon'=>$amazon
+                'Amazon'=>$amazon,
+                'Youtube'=>$youtube,
+                'Google'=>$google_search
             )
         );
 
